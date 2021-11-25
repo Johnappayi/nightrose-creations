@@ -129,7 +129,7 @@ ion-icon {
   padding-left: 2rem;
   position: fixed;
 }
-.hero-para{
+.hero-para {
   color: rgb(38, 38, 38);
   padding-top: 1rem;
 }
@@ -192,18 +192,26 @@ ion-icon {
   align-items: center;
   justify-content: center;
   background-color: #f4f4f4;
+  overflow: auto;
 }
-.gallery-cards {
+.gallery-out{
   height: 80vh;
-  width: 90vw;
+  width: 55vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(to bottom right, #082032, #334756);
+  overflow: auto; 
+}
+.gallery-row {
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
   align-self: center;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
   gap: 1rem;
 }
 .gallery-frame {
@@ -219,19 +227,36 @@ ion-icon {
 }
 
 /*--Contact Section--*/
-
 .contact-section {
   height: 70vh;
   width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #ffffff;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(#c7c7c71e, rgba(134, 134, 134, 0.329)),
+    url(/Resources/Images/ContactBack.jpg);
+  background-size: cover;
+  background-position: center;
   gap: 1rem;
+}
+.contact-form {
+  height: 70vh;
+  width: 50vw;
+  margin-left: 15rem;
+  align-self: center;
+}
+.contact-image {
+  height: 70vh;
+  width: auto;
+}
+.contact-form h2 {
+  color: #e4e8eb;
+  font-weight: 300;
 }
 form {
   display: flex;
   flex-direction: column;
+  color: #f4f4f4c9;
   width: 30vw;
   gap: 0.5rem;
 }
@@ -240,16 +265,14 @@ input {
   padding: 0 0 0 0.375rem;
   outline: none;
   border: none;
-  background-color: #2b3ba13b;
-  border-radius: 0.375rem;
+  background-color: #a0a0a08f;
   font-family: "Source Sans Pro", sans-serif;
 }
 textarea {
   resize: none;
   outline: none;
   border: none;
-  background-color: #2b3ba13b;
-  border-radius: 0.375rem;
+  background-color: #a0a0a08f;
   padding: 0.375rem 0 0 0.375rem;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -262,10 +285,10 @@ button {
   align-self: flex-end;
   outline: none;
   border: none;
-  background-color: #082032;
+  background-color: rgb(16, 16, 16);
   font-family: "Source Sans Pro", sans-serif;
   color: #f7f7f7;
-  border-radius: 5px;
+
   font-size: 0.9rem;
   cursor: pointer;
   transition: 0.4s;
@@ -276,8 +299,8 @@ button:hover {
 /*--Footer--*/
 footer {
   width: 100vw;
-  height: 25vh;
-  background-color: #082032;
+  height: 20vh;
+  background-color: rgb(16, 16, 16);
   color: #f7f7f7;
   font-size: 0.85rem;
   font-weight: 200;

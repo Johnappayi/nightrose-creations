@@ -25,6 +25,7 @@ h2 {
 }
 h3 {
   color: #082032;
+  font-weight: 400;
 }
 /*--Hero Section--*/
 header {
@@ -43,7 +44,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  background: rgb(16, 16, 16);
+  background: rgba(16, 16, 16);
   z-index: 998;
 }
 .main-nav {
@@ -137,52 +138,62 @@ ion-icon {
 .about-section {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom right, #f7b514, #f19407d0);
-  color: #f4f4f4;
-  /* padding-top: 4rem; */
 }
 .about-section h2 {
-  color: #082032;
-  font-size: 2.5rem;
+  color: #f7b714;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .about {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+}
+.about-text-container {
   height: 100vh;
-  gap: 1.5rem;
-}
-.about-cards {
-  height: 32vh;
-  display: flex;
-  gap: 5rem;
-  justify-content: center;
-  align-items: center;
-}
-.Acard {
-  width: 10rem;
-  height: 8rem;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(116, 116, 116, 0.582);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0rem 0rem 2rem;
-}
-.about-image {
-  height: auto;
-  width: 6rem;
-  border-radius: 50%;
+  width: 45vw;
+  background: linear-gradient(to bottom right, #f8ba1ebb, #b47603e5);
 }
 .about-para {
-  text-align: center;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #f7b514;
+  color: #e4e8eb;
+  font-weight: 300;
+  font-family: "Source Sans Pro", sans-serif;
 }
+
+.about-image-container {
+  height: 100vh;
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 1rem;
+}
+.about-image-row {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+}
+.about-team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+}
+.about-image {
+  height: 17vh;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.about-image-icon {
+  height: 1.15rem;
+  width: auto;
+}
+
 /*-- Gallery Section--*/
 .gallery-section {
   height: 100vh;
@@ -194,7 +205,7 @@ ion-icon {
   background-color: #f4f4f4;
   overflow: auto;
 }
-.gallery-out{
+.gallery-out {
   height: 80vh;
   width: 55vw;
   display: flex;
@@ -202,7 +213,7 @@ ion-icon {
   align-items: center;
   justify-content: center;
   background: linear-gradient(to bottom right, #082032, #334756);
-  overflow: auto; 
+  overflow: auto;
 }
 .gallery-row {
   height: 80vh;
@@ -210,7 +221,7 @@ ion-icon {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   align-self: center;
   gap: 1rem;
 }
@@ -300,10 +311,10 @@ button:hover {
 footer {
   width: 100vw;
   height: 20vh;
-  background-color: rgb(16, 16, 16);
-  color: #f7f7f7;
-  font-size: 0.85rem;
-  font-weight: 200;
+  background: #f7b714de;
+  color: #000000;
+  font-size: 0.95rem;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   justify-content: center;

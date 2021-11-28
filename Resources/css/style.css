@@ -84,7 +84,7 @@ nav {
   height: 90vh;
   width: 100vw;
   background: linear-gradient(rgba(0, 0, 0, 0.482), rgba(0, 0, 0, 0.523)),
-    url(/Resources/Images/annie-spratt-hrqMHFKC6g8-unsplash.jpg);
+    url(./Resources/Images/annie-spratt-hrqMHFKC6g8-unsplash.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -138,11 +138,15 @@ ion-icon {
 .about-section {
   width: 100vw;
   height: 100vh;
+  background: #f8ba1ede;
 }
 .about-section h2 {
-  color: #f7b714;
+  color: #1a2463;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+  z-index: 997;
+  left: 19.5rem;
 }
 .about {
   display: flex;
@@ -151,23 +155,36 @@ ion-icon {
 .about-text-container {
   height: 100vh;
   width: 45vw;
-  background: linear-gradient(to bottom right, #f8ba1ebb, #b47603e5);
+  background: #b47603e5;
+  display: flex;
+  flex-direction: column;
 }
 .about-para {
   color: #e4e8eb;
   font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
+  max-width:22rem;
+  align-self: center;
+  font-size: 1.25rem;
+  padding-top: 5rem;
 }
-
+.author-icon{
+  text-align: center;
+}
+.about-icons{
+  font-size: 1rem;
+  color: #313131;
+}
 .about-image-container {
   height: 100vh;
-  width: 65vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 3rem;
   padding-top: 1rem;
+  padding-left: 2rem;
 }
 .about-image-row {
   display: flex;
@@ -193,41 +210,59 @@ ion-icon {
   height: 1.15rem;
   width: auto;
 }
-
+.member-img{
+  display: flex;
+  gap: 2rem;
+}
+.member-img li{
+  list-style: none;
+}
+.member-img li p{
+  text-align: center;
+}
 /*-- Gallery Section--*/
 .gallery-section {
   height: 100vh;
   width: 100vw;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: #f4f4f4;
+  justify-content: center; */
+  background-color: #000000;
   overflow: auto;
 }
-.gallery-out {
-  height: 80vh;
-  width: 55vw;
+.gallery-section h2{
+  margin-bottom: 2rem;
+  color: #e4e8eb;
+  font-weight: 200;
+}
+.gallery-row{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to bottom right, #082032, #334756);
-  overflow: auto;
+  gap: 3rem;
 }
-.gallery-row {
-  height: 80vh;
-  width: 50vw;
+.img-cont{
+  position: relative;
+}
+.img-row-1{
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  gap: 1.2rem;
   justify-content: center;
-  align-self: center;
-  gap: 1rem;
 }
 .gallery-frame {
-  height: 40vh;
-  width: 15vw;
+  height: auto;
+  width: 18vw;
+}
+.after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.399);
+}
+.img-cont:hover  .after{
+  background: rgba(255, 255, 255, 0);
 }
 .gallery-image {
   height: auto;
@@ -245,7 +280,7 @@ ion-icon {
   flex-direction: row;
   justify-content: center;
   background: linear-gradient(#c7c7c71e, rgba(134, 134, 134, 0.329)),
-    url(/Resources/Images/ContactBack.jpg);
+    url(./Resources/Images/ContactBack.jpg);
   background-size: cover;
   background-position: center;
   gap: 1rem;

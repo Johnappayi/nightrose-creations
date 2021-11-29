@@ -346,8 +346,8 @@ button:hover {
 footer {
   width: 100vw;
   height: 20vh;
-  background: #f7b714de;
-  color: #000000;
+  color: #f7b714de;
+  background: #000000;
   font-size: 0.95rem;
   font-weight: 300;
   display: flex;

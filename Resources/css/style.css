@@ -84,7 +84,7 @@ nav {
   height: 90vh;
   width: 100vw;
   background: linear-gradient(rgba(0, 0, 0, 0.482), rgba(0, 0, 0, 0.523)),
-    url(./Resources/css/annie-spratt-hrqMHFKC6g8-unsplash.jpg);
+    url(../Resources/css/annie-spratt-hrqMHFKC6g8-unsplash.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -280,7 +280,7 @@ ion-icon {
   flex-direction: row;
   justify-content: center;
   background: linear-gradient(#c7c7c71e, rgba(134, 134, 134, 0.329)),
-    url(./Resources/css/ContactBack.jpg);
+    url(../Resources/css/ContactBack.jpg);
   background-size: cover;
   background-position: center;
   gap: 1rem;

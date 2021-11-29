@@ -84,7 +84,7 @@ nav {
   height: 90vh;
   width: 100vw;
   background: linear-gradient(rgba(0, 0, 0, 0.482), rgba(0, 0, 0, 0.523)),
-    url(./Resources/Images/annie-spratt-hrqMHFKC6g8-unsplash.jpg);
+    url(./Resources/css/annie-spratt-hrqMHFKC6g8-unsplash.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -163,15 +163,15 @@ ion-icon {
   color: #e4e8eb;
   font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
-  max-width:22rem;
+  max-width: 22rem;
   align-self: center;
   font-size: 1.25rem;
   padding-top: 5rem;
 }
-.author-icon{
+.author-icon {
   text-align: center;
 }
-.about-icons{
+.about-icons {
   font-size: 1rem;
   color: #313131;
 }
@@ -210,14 +210,14 @@ ion-icon {
   height: 1.15rem;
   width: auto;
 }
-.member-img{
+.member-img {
   display: flex;
   gap: 2rem;
 }
-.member-img li{
+.member-img li {
   list-style: none;
 }
-.member-img li p{
+.member-img li p {
   text-align: center;
 }
 /*-- Gallery Section--*/
@@ -231,20 +231,20 @@ ion-icon {
   background-color: #000000;
   overflow: auto;
 }
-.gallery-section h2{
+.gallery-section h2 {
   margin-bottom: 2rem;
   color: #e4e8eb;
   font-weight: 200;
 }
-.gallery-row{
+.gallery-row {
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
-.img-cont{
+.img-cont {
   position: relative;
 }
-.img-row-1{
+.img-row-1 {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -261,7 +261,7 @@ ion-icon {
   width: 100%;
   background: rgba(0, 0, 0, 0.399);
 }
-.img-cont:hover  .after{
+.img-cont:hover .after {
   background: rgba(255, 255, 255, 0);
 }
 .gallery-image {
@@ -280,7 +280,7 @@ ion-icon {
   flex-direction: row;
   justify-content: center;
   background: linear-gradient(#c7c7c71e, rgba(134, 134, 134, 0.329)),
-    url(./Resources/Images/ContactBack.jpg);
+    url(./Resources/css/ContactBack.jpg);
   background-size: cover;
   background-position: center;
   gap: 1rem;
